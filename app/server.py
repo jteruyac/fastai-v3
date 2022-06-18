@@ -10,7 +10,7 @@ from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
 export_file_url = 'https://drive.google.com/uc?id=1vMYUIPlw7SB-XYTQLdbE-JlhIdpAvaFK'
-export_file_name = 'export.pkl'
+export_file_name = 'model_resnet50.pkl'
 
 classes = ['NORMAL', 'PNEUMONIA']
 path = Path(__file__).parent
